@@ -64,6 +64,8 @@
 	{
 		echo "<li><button class=\"dropdown-item\" onclick=\"sceneSelect('" . $time . "')\"><div class=\"col-2 form-check form-check-inline\">(" . $time . ")</div><div class=\"form-check form-check-inline\">" . $title . "</div></button></li>";
 	}
+	echo "<li></li>";
+	echo "<li><button class=\"dropdown-item\" onclick=\"sceneSelect('" . "4:04:40" . "')\"><div class=\"col-2 form-check form-check-inline\">(" . "N/A" . ")</div><div class=\"form-check form-check-inline\">" . "*NOT FOUND IN FILM*" . "</div></button></li>";
 	echo "</ul>";
 	echo "</div>";
 ?>
